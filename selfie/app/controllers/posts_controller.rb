@@ -20,7 +20,7 @@ class PostsController < ApplicationController
 		if @post.save
 			redirect_to '/'
 		else
-			render :new
+			post.errors.full_messages
 		end
 	end
 
