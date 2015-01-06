@@ -1,0 +1,9 @@
+<h1>Welcome</h1>
+
+
+<ul>
+<% @post.all do |post| %>
+<li><%= post.body %><li>
+<% end %>
+</ul>
+

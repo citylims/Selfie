@@ -1,3 +1,3 @@
-class Posts < ActiveRecord::Base
+class Post < ActiveRecord::Base
   validates :body, presence: true
 end
