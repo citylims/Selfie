@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-root 'selfies#index'
+root 'posts#index'
 
-resources :selfies
+resources :posts
 
 end
   # The priority is based upon order of creation: first created -> highest priority.
